@@ -2747,7 +2747,7 @@ header.header {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #fdf;
+  background: #ffb14e;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2797,23 +2797,8 @@ header.header {
 .sub-menu .menu-item {
   display: inline-block;
 }
-#body {
-  background-image: url("/images/background.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-}
-.content-wrap {
-  opacity: 0.9;
-}
-.main-inner .post-block {
-  background: rgba(255,255,255,0.9) none repeat scroll !important;
-}
 .sidebar-inner {
-  background: rgba(255,255,255,0.9) none repeat scroll !important;
-}
-.header-inner {
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.8) none repeat scroll !important;
 }
 .popup {
   opacity: 0.9;
@@ -2824,19 +2809,6 @@ header.header {
   margin-bottom: 60px;
   -webkit-box-shadow: 0 0 5px #788072;
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
-}
-p code {
-  color: #c71585;
-  background: #fffafa;
-  margin: 2px;
-}
-.highlight figcaption {
-  color: #fffafa;
-  background: #808080;
-  font-family: "Source Code Pro", "Noto Serif SC", Consolas, Monaco, Menlo, monospace;
-}
-.highlight .gutter pre {
-  background: #dcdcdc;
 }
 .sidebar {
   box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0);
@@ -2863,28 +2835,6 @@ p code {
 }
 .site-overview {
   line-height: 1.3;
-}
-.site-author-image {
-  border: 2px solid #505050;
-  border-radius: 100%;
-  transition: transform 1s ease-out;
-}
-img:hover {
-  transform: rotateZ(360deg);
-}
-.posts-expand .post-body img:hover {
-  transform: initial;
-}
-.site-author-name {
-  display: none;
-}
-.site-description {
-  letter-spacing: 5px;
-  font-size: 15px;
-  font-weight: bold;
-  margin-top: 15px;
-  margin-left: 13px;
-  color: #000;
 }
 .post-toc ol a {
   color: #808080;
